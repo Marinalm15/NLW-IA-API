@@ -1,4 +1,4 @@
-import { FastifyBaseLogger, FastifyInstance } from "fastify";
+import { FastifyInstance } from "fastify";
 import { prisma } from "../lib/prisma";
 
 export async function getAllPromptsRoute(app: FastifyInstance) {
